@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from './Main.module.css';
 
+import { Card } from 'react-bootstrap';
+
 
 const Main = () => (
-  <div className={styles.Main}>
-    Main Component
-  </div>
+  <main className={`${styles.Main} text-white`}>
+      Main Component
+  </main>
 );
 
 export default Main;
