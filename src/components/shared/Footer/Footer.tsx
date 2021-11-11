@@ -6,7 +6,7 @@ import { Card } from 'react-bootstrap';
 const Footer = () => (
   <footer className={styles.Footer}>
       <Card className="p-4 rounded-0" bg="dark" text="white">
-          <p>Made by Senpai (with &#10084;) Vincent-Chan and Alexanderu-Chan UwU &copy;2021</p>
+          <p>Made by Senpai (with &#10084;) Vincent-Chan and Alexanderu-Chan (El-Diablo) &copy;2021 UwU</p>
       </Card>
   </footer>
 );

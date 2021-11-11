@@ -1,6 +1,6 @@
 .Header {}
 
-.classLogo{
-    width: 50px;
-	height: 50px;
+.headerContainer {
+    margin: 0;
+    margin-left: 20px!important;
 }
