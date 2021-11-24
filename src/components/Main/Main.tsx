@@ -41,22 +41,34 @@ const Main = () => (
 
         <Container className={`${styles.NoNameYet}`}>
             <Row className={`${styles.NoNameYet}`}>
-                <Col xs={5}>
+                <Col xs={3}>
                     <div className={`${styles.divLastUsers}`}>
                         -qlq
                         -qlqd'autre
                         -jugepas
                     </div>
                 </Col>
-                <Col xs={5}>
-                    <div className={`${styles.FewMemes}`}>
-
-                    </div>
+                <Col xs={8}>
+                    <Container className={`${styles.memeContainer}`}>
+                        <Row className="align-items-center">
+                            <Col>
+                                First meme here
+                            </Col>
+                            <Col>
+                                Second meme here
+                            </Col>
+                        </Row>
+                        <Row className="align-items-center">
+                            <Col>
+                                Third meme here
+                            </Col>
+                            <Col>
+                                Last meme here
+                            </Col>
+                        </Row>
+                    </Container>
                 </Col>
                 <Col>
-                    <div className={`${styles.FewMemes}`}>
-
-                    </div>
                 </Col>
             </Row>
         </Container>
