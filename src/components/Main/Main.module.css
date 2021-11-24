@@ -1,35 +1,52 @@
 .NoNameYet{
-    height: 500px !important;
+    height: 400px !important;
     margin-right: 10px !important;
     margin-left: -6px !important;
 }
 
 .Main {
-    background-color: #25282b;
+    background-color: #676869;
 }
 
 .DivButtons{
-    background-color: #1590d8;
+    background-color: #676869;
     border: solid;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.boutonDeMerde{
+.bouton{
     margin-right: 10px;
     margin-left: 10px;
-    background-color: #e67aa7 !important; 
-    color: #a81212 !important;
+    color: #ffffff !important;
 }
 
 .divLastUsers{
     height: 100%;
     width: 100%;
-    background-color: #d86d15;
+    background-color: #676869;
 }
 
-.FewMemes{
-    height: 100%;
+.memeContainer{
+    margin-top: 10%;
+}
+
+.memeSquare{
+    height: 200px;
     width: 100%;
+    margin-bottom: 20px;
     background-color: #09e639;
+    overflow: hidden !important;
+}
+
+img{
+    max-width: 100% !important;
+}
+
+p{
+    color: #ffffff
+}
+
+body{
+    background-color: #1A1A1B
 }
