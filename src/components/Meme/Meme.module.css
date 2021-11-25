@@ -1,1 +1,29 @@
-.Meme {}
+h1{
+    font-size:80px !important;
+}
+
+.DivContainer{
+    background-color: green;
+    height: 1000px;
+}
+
+.DivImage{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: rosybrown;
+    height: 90%;
+}
+
+.MemeImage{
+    background-color: blue;
+}
+
+.DivDescription{
+    background-color: orange;
+}
+
+.DivVote{
+    background-color: red;
+}

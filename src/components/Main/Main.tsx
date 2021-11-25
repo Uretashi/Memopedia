@@ -11,6 +11,7 @@ import Login from "../Connection/Login/Login";
 import CreateAccount from "../Connection/CreateAccount/CreateAccount";
 import Memesearch from "../Memesearch/Memesearch";
 import PostMeme from "../PostMeme/PostMeme";
+import Meme from "../Meme/Meme";
 
 import meme1 from '../../assets/meme/meme1.jpg';
 import meme5 from '../../assets/meme/meme5.jpg';
@@ -26,6 +27,7 @@ const Main = () => (
             <Route path="postMeme" element={<PostMeme />} />
             <Route path="login" element={<Login />} />
             <Route path="createAccount" element={<CreateAccount />} />
+            <Route path="meme" element={<Meme/>} />
         </Routes>
     </BrowserRouter>
 );
