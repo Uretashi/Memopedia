@@ -1,9 +1,5 @@
-.Footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+.Footer {   
     height: 10%;
     width: 100%;
-    color: white;
     text-align: center;
 }
