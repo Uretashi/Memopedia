@@ -8,7 +8,7 @@ class Meme extends React.Component {
     //     super(props);
     // }
 
-    memes = [];
+    memes: any = [];
 
     componentDidMount() {
     }

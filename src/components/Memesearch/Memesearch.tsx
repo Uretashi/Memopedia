@@ -5,7 +5,7 @@ require('dotenv').config();
 
 export default class Memesearch extends React.Component {
 
-    memes = [];
+    memes: any = [];
 
     componentDidMount() {
         fetch(`${process.env.REACT_APP_API_URL}/memes/byTag?tags=youtube,gif`)
@@ -28,5 +28,3 @@ export default class Memesearch extends React.Component {
         );
     }
 }
-
-// export default Memesearch;
