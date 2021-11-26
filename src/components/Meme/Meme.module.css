@@ -1,1 +1,40 @@
-.Meme {}
+h1{
+    font-size:80px !important;
+}
+
+.DivContainer{
+    height: 1000px;
+}
+
+.DivDescription{
+    border: 5px solid;
+}
+
+.DivVote{
+    border: 5px solid;
+}
+
+.MemeImage{
+    border: 10px solid;
+    max-height: 80%;
+}
+
+body{
+    background-color: #818384 !important;
+    min-height: 600px;
+    height: 800px;
+}
+
+.WriteSection{
+    color: black;
+}
+
+.Contain{
+    margin: 0px !important;
+}
+
+
+.row{
+    margin-left:0px !important;
+    margin-right: 0px !important;
+}

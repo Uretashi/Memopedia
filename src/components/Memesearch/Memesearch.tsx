@@ -17,7 +17,6 @@ export default class Memesearch extends React.Component {
                 (error) => {
                     console.log('errrrr mdrrrrr salope')
                 });
-
     }
 
     render() {
