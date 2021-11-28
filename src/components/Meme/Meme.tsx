@@ -19,7 +19,8 @@ export default class Meme extends React.Component {
                 },
                 (error) => {
                     console.log("Vous n'avez rien vu monsieur...")
-                });
+                }
+        );
     }
 
     render() {

@@ -1,1 +1,41 @@
-.CreateAccount {}
+.accountForm {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.accountForm div {
+    margin: 5% 10% 0 10%;
+}
+
+.accountForm div:last-child {
+    margin: 5% 0;
+    width: 100%;
+}
+
+.accountForm div:last-child input {
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    padding: 1%;
+    background-color: #0069D9;
+    color: white;
+}
+
+.accountForm input {
+    display: block;
+    margin-bottom: 15%;
+    padding: 2px 7px;
+    border-radius: 5px;
+    border: none;
+}
+
+.accountForm label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 3%;
+    text-align: left;
+}
