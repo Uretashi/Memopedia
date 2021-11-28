@@ -23,19 +23,6 @@ export default class Memesearch extends React.Component {
     render() {
         return (
             <body>
-                <h1>Entrer un ou plusieurs tags : </h1>
-                <Container>
-                    <Row>
-                        <Col >
-                            <form className={styles.theForm}>
-                                <label className={styles.wider}>
-                                    <input className={styles.wider} placeholder="ex : YouTube, Comic..."/>
-                                    <button>Chercher</button>
-                                </label>
-                            </form>
-                        </Col>
-                    </Row>
-                </Container>
             </body>
         );
     }

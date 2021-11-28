@@ -3,5 +3,11 @@ body{
 }
 
 .wider{
-    width: 100% !important;
+    width: 80% !important;
+}
+
+.theForm{
+    display:inline;
+    vertical-align:top;
+    text-align:center;
 }
