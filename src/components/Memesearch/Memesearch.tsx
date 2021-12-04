@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './Memesearch.module.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
+import MemeHolder from "../../components/MemeHolder/MemeHolder";
+
 require('dotenv').config();
 
 export default class Memesearch extends React.Component {
@@ -29,13 +31,16 @@ export default class Memesearch extends React.Component {
                         <Col >
                             <form className={styles.theForm}>
                                 <label className={styles.wider}>
-                                    <input className={styles.wider} placeholder="ex : YouTube, Comic..."/>
+                                    <input className={styles.wider} placeholder="ex : YouTube, Comic..." />
                                     <button>Chercher</button>
                                 </label>
                             </form>
                         </Col>
                     </Row>
                 </Container>
+                <MemeHolder />
+                <MemeHolder />
+                <MemeHolder />
             </body>
         );
     }

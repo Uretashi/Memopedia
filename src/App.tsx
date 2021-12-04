@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 
 import Header from "./components/shared/Header/Header";
-import Footer from "./components/shared/Footer/Footer";
 import Main from "./components/Main/Main";
 
 function App() {
@@ -11,7 +10,6 @@ function App() {
     <div className="App">
       <Header />
       <Main />
-      <Footer />
     </div>
   );
 }
