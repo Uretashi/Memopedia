@@ -1,1 +1,27 @@
-.Login {}
+.Login {
+
+}
+
+.accountForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.accountForm input {
+    display: block;
+    margin: 1% auto;
+    padding: 2px 7px;
+    border-radius: 5px;
+    border: none;
+}
+
+.lastInput {
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    width: 10%;
+    padding: 10px 20px!important;
+    background-color: #0069D9;
+    color: white;
+}

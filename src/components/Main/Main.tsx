@@ -1,38 +1,13 @@
 import React from 'react';
 import styles from './Main.module.css';
 import { Button, Container, Row, Col, ToggleButtonGroup, ToggleButton, Collapse } from 'react-bootstrap';
-import {
-    BrowserRouter,
-    Routes,
-    Route
-} from "react-router-dom";
-
-import Login from "../Connection/Login/Login";
-import CreateAccount from "../Connection/CreateAccount/CreateAccount";
-import Memesearch from "../Memesearch/Memesearch";
-import PostMeme from "../PostMeme/PostMeme";
-import Meme from "../Meme/Meme";
 
 import meme1 from '../../assets/meme/meme1.jpg';
 import meme5 from '../../assets/meme/meme5.jpg';
 import meme3 from '../../assets/meme/meme3.jpg';
 import meme4 from '../../assets/meme/meme4.jpg';
 
-
-const Main = () => (
-    <BrowserRouter>
-        <Routes>
-            <Route path="" element={mainApp()}></Route>
-            <Route path="search/:tags" element={<Memesearch />} />
-            <Route path="postMeme" element={<PostMeme />} />
-            <Route path="login" element={<Login />} />
-            <Route path="createAccount" element={<CreateAccount />} />
-            <Route path="meme" element={<Meme/>} />
-        </Routes>
-    </BrowserRouter>
-);
-
-const mainApp = () => {
+export default function Main() {
     return (
         <main>
             <div>
@@ -108,7 +83,5 @@ const mainApp = () => {
                 </Container>
             </div>
         </main>
-    )
+    );
 }
-
-export default Main;
