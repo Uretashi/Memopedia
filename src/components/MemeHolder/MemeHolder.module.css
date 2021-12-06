@@ -1,0 +1,11 @@
+.MemeImage{
+    max-width: auto !important;
+}
+
+.Holder{
+    background-color: #676869;
+    text-align: center;
+    max-width: 60% !important;
+    min-height: auto !important;
+    max-height: 100% !important;
+}

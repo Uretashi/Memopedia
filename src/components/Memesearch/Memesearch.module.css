@@ -1,1 +1,13 @@
-.Memesearch {}
+body{
+    height: 100% !important;
+}
+
+.wider{
+    width: 80% !important;
+}
+
+.theForm{
+    display:inline;
+    vertical-align:top;
+    text-align:center;
+}

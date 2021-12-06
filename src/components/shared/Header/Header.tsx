@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import { Link } from "react-router-dom";
 import styles from './Header.module.css';
-import { Navbar, Container, Nav, Image, Dropdown, NavDropdown } from 'react-bootstrap';
+import { Navbar, Container, Nav, Image, NavDropdown } from 'react-bootstrap';
 import memopedia_logo from '../../../assets/img/memopedia_logo.jpg';
 import logged_acount_logo from '../../../assets/img/login_cropped.png'
 import UserContext from "../../../context/UserContext";

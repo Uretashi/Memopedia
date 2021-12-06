@@ -8,6 +8,7 @@ import meme3 from '../../assets/meme/meme3.jpg';
 import meme4 from '../../assets/meme/meme4.jpg';
 
 export default function Main() {
+
     return (
         <main>
             <div>
