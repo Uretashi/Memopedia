@@ -24,7 +24,7 @@ export default class Memesearch extends React.Component {
 
     render() {
         return (
-            <body>
+            <div>
                 <h1>Entrer un ou plusieurs tags : </h1>
                 <Container>
                     <Row>
@@ -41,7 +41,7 @@ export default class Memesearch extends React.Component {
                 <MemeHolder />
                 <MemeHolder />
                 <MemeHolder />
-            </body>
+            </div>
         );
     }
 }

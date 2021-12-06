@@ -1,5 +1,6 @@
-.Footer {   
+.Footer {
     height: 10%;
     width: 100%;
-    text-align: center;   
+    margin-top: 50px;
+    text-align: center;
 }

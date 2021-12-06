@@ -37,16 +37,18 @@ export default class App extends React.Component<any, any> {
                     <UserContext.Provider value={this.state as UserInterface}>
                         <BrowserRouter>
                             <Header />
-                            <Routes>
-                                <Route path="" element={<Main />} />
-                                <Route path="search/:tags" element={<Memesearch />} />
-                                <Route path="postMeme" element={<PostMeme />} />
-                                <Route path="login" element={<Login />} />
-                                <Route path="createAccount" element={<CreateAccount />} />
-                                <Route path="meme" element={<Meme/>} />
-                            </Routes>
+                            <main className="main">
+                                <Routes>
+                                    <Route path="" element={<Main />} />
+                                    <Route path="search/:tags" element={<Memesearch />} />
+                                    <Route path="postMeme" element={<PostMeme />} />
+                                    <Route path="login" element={<Login />} />
+                                    <Route path="createAccount" element={<CreateAccount />} />
+                                    <Route path="meme" element={<Meme/>} />
+                                </Routes>
+                            </main>
+                            <Footer />
                         </BrowserRouter>
-                        <Footer />
                     </UserContext.Provider>
                 </div>
             </div>

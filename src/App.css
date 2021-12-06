@@ -3,6 +3,10 @@
   height: 100% !important;
 }
 
+.main {
+  min-height: 450px!important;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

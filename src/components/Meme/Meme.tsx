@@ -25,7 +25,7 @@ export default class Meme extends React.Component {
 
     render() {
         return (
-            <body>
+            <div>
                 <h1>ParamTitle</h1>
                 <Container>
                     <Row className="justify-content-md-center">
@@ -48,7 +48,7 @@ export default class Meme extends React.Component {
                         </Col>
                     </Row>
                 </Container>
-            </body>
+            </div>
         );
     }
 }
