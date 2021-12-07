@@ -65,7 +65,7 @@ export default function PostMeme() {
               </div>
 
               <div>
-                  <input type="submit" />
+                  <input type="submit" className={styles.submitButton}/>
               </div>
           </form>
       </div>
