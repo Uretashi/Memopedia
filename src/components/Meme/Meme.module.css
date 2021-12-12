@@ -2,16 +2,7 @@ h1{
     font-size:80px !important;
 }
 
-.DivDescription{
-    border: 5px solid;
-}
-
-.DivVote{
-    border: 5px solid;
-}
-
 .MemeImage{
-    border: 10px solid;
     max-height: 80%;
 }
 
@@ -33,4 +24,8 @@ html, body {
 
 .Contain{
     margin: 0px !important;
+}
+
+.DivDescription p{
+    color: black
 }

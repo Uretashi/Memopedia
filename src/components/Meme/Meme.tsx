@@ -33,24 +33,22 @@ export default class Meme extends React.Component<any, any> {
                     <h2>{meme.title}</h2>
                     <Container>
                         <Row className="justify-content-md-center">
-                            <Col className={styles.DivImage} xs={12} sm={4} md={8}>
+                            <Col className={styles.DivImage} xs={2} sm={2} md={6}>
                                 <img src={meme.fileBuffer64} className={styles.MemeImage} />
-                            </Col>
-                        </Row>
-                    </Container>
-                    <Container className={styles.Contain}>
-                        <Row>
-                            <Col xs={8}>
                                 <div className={styles.DivDescription}>
                                     <p className={styles.WriteSection}>{meme.description}</p>
                                     <p>Date de publication : {meme.publication_date}</p>
                                     <p>tags : {meme.tags}</p>
+                                    <p className={styles.WriteSection}>Likes: 0</p>
                                 </div>
                             </Col>
+                        </Row>
+                        <Row>
+                            <Col xs={8}>
+                                
+                            </Col>
                             <Col>
-                                <div className={styles.DivVote}>
-                                    <p className={styles.WriteSection}>Likes: param</p>
-                                </div>
+                                
                             </Col>
                         </Row>
                     </Container>
