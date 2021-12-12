@@ -21,7 +21,7 @@ export default class Memesearch extends React.Component {
                     console.log(result)
                 },
                 (error) => {
-                    console.log('`^`/')
+                    console.log(error)
                 });
     }
 
@@ -39,7 +39,7 @@ export default class Memesearch extends React.Component {
                                         id="free-solo-demo"
                                         freeSolo
                                         options={tags.map((option) => option.title)}
-                                        renderInput={(params) => <TextField {...params} label="freeSolo" />}
+                                        renderInput={(params) => <TextField {...params} label="Taper un tag (ex: #YouTube, #Car..." />}
                                     />
                                     <button>Chercher</button>
                                 </label>
@@ -47,8 +47,6 @@ export default class Memesearch extends React.Component {
                         </Col>
                     </Row>
                 </Container>
-                <MemeHolder />
-                <MemeHolder />
                 <MemeHolder />
             </div>
         );

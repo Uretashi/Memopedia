@@ -29,7 +29,7 @@ export default function Header() {
                             </Navbar.Brand>
                             <Nav className={styles.headerNav}>
                                 <div className={styles.navFirstDiv}>
-                                    <Link to="/search/uwu">Rechercher</Link>
+                                    <Link to="/search">Rechercher</Link>
                                     {Object.keys(user).length === 0 ?
                                         (
                                             <div className={styles.accountDiv}>

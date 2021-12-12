@@ -29,6 +29,10 @@
     height: 40px;
 }
 
+.headerNav a:first-child {
+    margin-right: 15px;
+}
+
 .accountDiv a:first-child {
     margin-right: 15px;
 }
