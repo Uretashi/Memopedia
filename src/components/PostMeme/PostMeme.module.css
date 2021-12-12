@@ -1,7 +1,7 @@
 .accountForm {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
     margin: auto;
     flex-wrap: wrap;
 }
@@ -19,18 +19,23 @@
     margin: 5% auto 0 auto;
     border: none;
     border-radius: 5px;
-    width: 40%;
+    width: 50%;
     padding: 1%;
     background-color: #0069D9;
     color: white;
 }
 
+.submitButton{
+    height: auto !important;
+}
+
 .accountForm input {
     display: block;
-    /*margin-bottom: 15%;*/
     padding: 2px 7px;
     border-radius: 5px;
     border: none;
+    width: 250px !important;
+    height: 28px;
 }
 
 .accountForm label {

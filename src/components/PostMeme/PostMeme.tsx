@@ -4,8 +4,8 @@ import { useForm } from "react-hook-form";
 import styles from './PostMeme.module.css';
 import accountCreatedLogo from '../../assets/img/account_created.png'
 
-
 require('dotenv').config();
+
 
 export default function PostMeme() {
 
@@ -75,7 +75,7 @@ export default function PostMeme() {
           </div>
 
           <div>
-              <input type="submit" />
+              <input type="submit" className={styles.submitButton}/>
           </div>
       </form>
     </div>
