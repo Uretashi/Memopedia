@@ -30,12 +30,14 @@ export default function Header() {
                             <Nav className={styles.headerNav}>
                                 <div className={styles.navFirstDiv}>
                                     <Link to="/search/uwu">Rechercher</Link>
-                                    <Link to="/postMeme">Poster un meme</Link>
-                                    {Object.keys(user).length === 0 &&
-                                        <div className={styles.accountDiv}>
-                                            <Link to="/login">Login</Link>
-                                            <Link to="/createAccount">Créer un compte</Link>
-                                        </div>
+                                    {Object.keys(user).length === 0 ?
+                                        (
+                                            <div className={styles.accountDiv}>
+                                                <Link to="/login">Login</Link>
+                                                <Link to="/createAccount">Créer un compte</Link>
+                                            </div>
+                                        ) :
+                                        (<Link to="/postMeme">Poster un meme</Link>)
                                     }
                                 </div>
                                 {Object.keys(user).length > 0 &&

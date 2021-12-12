@@ -1,3 +1,9 @@
+.memesContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .NoNameYet{
     height: 400px !important;
     margin-right: 10px !important;
@@ -23,15 +29,20 @@
     background-color: #676869;
 }
 
-.memeContainer{
-    margin-top: 10%;
-}
-
 .memeSquare{
-    height: 200px;
-    width: 100%;
+    width: 40%;
     margin-bottom: 20px;
     overflow: hidden !important;
+}
+
+.memeSquare img {
+    width: 300px;
+    max-height: 100%;
+}
+
+.memeSquare video {
+    width: 300px;
+    max-height: 100%;
 }
 
 img{

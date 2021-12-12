@@ -11,16 +11,12 @@ export default class Meme extends React.Component {
     memes: any = [];
 
     componentDidMount() {
-        fetch(`${process.env.REACT_APP_API_URL}/memes/byId?20`)
+        fetch(`${process.env.REACT_APP_API_URL}/memes/one/20`)
             .then(res => res.json())
-            .then(
-                (result) => {
-                    console.log(result)
-                },
-                (error) => {
-                    console.log("Vous n'avez rien vu monsieur...")
-                }
-        );
+            .then(responseJson => {
+                    console.log(responseJson)
+            })
+            .catch(err => console.log(err));
     }
 
     render() {

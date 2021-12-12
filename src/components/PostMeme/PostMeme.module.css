@@ -16,7 +16,7 @@
 }
 
 .accountForm div:last-child input {
-    margin: auto;
+    margin: 5% auto 0 auto;
     border: none;
     border-radius: 5px;
     width: 40%;
@@ -27,7 +27,7 @@
 
 .accountForm input {
     display: block;
-    margin-bottom: 15%;
+    /*margin-bottom: 15%;*/
     padding: 2px 7px;
     border-radius: 5px;
     border: none;
@@ -36,6 +36,11 @@
 .accountForm label {
     display: inline-block;
     width: 100%;
+    margin-top: 10%;
     margin-bottom: 3%;
     text-align: left;
+}
+
+.errorSpan {
+
 }
