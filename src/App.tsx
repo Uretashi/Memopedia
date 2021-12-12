@@ -44,7 +44,7 @@ export default class App extends React.Component<any, any> {
                                     <Route path="postMeme" element={<PostMeme />} />
                                     <Route path="login" element={<Login />} />
                                     <Route path="createAccount" element={<CreateAccount />} />
-                                    <Route path="meme" element={<Meme/>} />
+                                    <Route path="meme/:id" element={<Meme/>} />
                                 </Routes>
                             </main>
                             <Footer />
